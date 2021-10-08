@@ -11,7 +11,7 @@ import sfmc_api_auth
 
 
 # Retrieve login parameters from config file
-with open('/Users/quentinbracq/Desktop/pycharmprojects/sfmc-api-python/config.json') as credentials:
+with open("config.json") as credentials:
     credentials = json.load(credentials)
 
 client_id = credentials["client_id"]
